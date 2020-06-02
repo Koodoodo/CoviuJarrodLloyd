@@ -1,2 +1,0 @@
-# CoviuJarrodLloyd
-Created with CodeSandbox

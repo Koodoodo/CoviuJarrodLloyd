@@ -1,0 +1,14 @@
+{
+  "name": "full-stack-coding-challenge",
+  "version": "1.0.0",
+  "description": "Coviu Fullstack Coding Challenge",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}

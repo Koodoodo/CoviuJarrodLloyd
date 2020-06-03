@@ -4,14 +4,16 @@
   "description": "Coviu Fullstack Coding Challenge",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js localhost 8080"
+    "start": "nodemon src/index.js localhost 8080",
+    "test": "mocha"
   },
   "dependencies": {
     "aws-sdk": "^2.687.0",
     "dotenv": "^8.2.0"
   },
   "devDependencies": {
-    "nodemon": "1.18.4"
+    "chai": "^4.2.0",
+    "nodemon": "^1.18.4"
   },
   "keywords": []
 }

@@ -28,8 +28,6 @@ async function getData()
     const teamData = await getObject(coviuBucketName, teamsPath);
     const userData = await getObject(coviuBucketName, usersPath);
 
-    console.log(`Here ${callData}`);
-
     return {calls: callData, teams:teamData, users:userData};
   }
   catch(err)

@@ -3,10 +3,6 @@ const AWS = require("aws-sdk");
 const dotenv = require('dotenv');
 dotenv.config();
 
-console.log(process.env.COVIU_AWS_REGION);
-console.log(process.env.COVIU_AWS_ACCESS_KEY);
-console.log(process.env.COVIU_AWS_SECRET_ACCESS_KEY);
-
 AWS.config.update({
   region: process.env.COVIU_AWS_REGION,
   accessKeyId: process.env.COVIU_AWS_ACCESS_KEY,
